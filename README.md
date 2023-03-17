@@ -59,6 +59,6 @@ By working together, we created a functional and user-friendly library website w
 
 
 #### Here you can find a [Gant Chart](#### Here you can find a Gant char for project schedule "Gant Chart") for project schedule.
-####[Gant Chart](https://github.com/vov4ik-7/Library/blob/main/Documents/GantCharts/1.png "Gant Chart") in another format.
+#### [Gant Chart](https://github.com/vov4ik-7/Library/blob/main/Documents/GantCharts/1.png "Gant Chart") in another format.
 #### Here you can find [budget and resources](https://github.com/vov4ik-7/Library/blob/main/Documents/Budget%20and%20resources%20allocation.pdf "budget and resources") estimation.
  
