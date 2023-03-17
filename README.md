@@ -56,3 +56,9 @@ Conduct manual and automated testing to identify and report bugs
 
 
 By working together, we created a functional and user-friendly library website with all the necessary features. Volodymyr is responsible for web development, database administration, and quality assurance testing while Nazar is for web development, user experience design, and quality assurance testing.
+
+
+#### Here you can find a [Gant Chart](#### Here you can find a Gant char for project schedule "Gant Chart") for project schedule.
+####[Gant Chart](https://github.com/vov4ik-7/Library/blob/main/Documents/GantCharts/1.png "Gant Chart") in another format.
+#### Here you can find [budget and resources](https://github.com/vov4ik-7/Library/blob/main/Documents/Budget%20and%20resources%20allocation.pdf "budget and resources") estimation.
+ 
