@@ -1,6 +1,6 @@
 # Project description
 
-Our goal is to create a library website that serves as a storage for books and movies. The website should provide a list of authors and the ability to get a book delivered to the user's home. Additionally, users should be able to mark a book as lost and view their checkout history.
+Our goal was to create a library website that serves as a storage for books and movies. The website should provide a list of authors and the ability to get a book delivered to the user's home. Additionally, users should be able to mark a book as lost and view their checkout history.
 
 ## Key features, including:
 
@@ -18,6 +18,7 @@ Our project following an Agile methodology, with iterative sprints and regular t
 * Web Developer, skilled in HTML, CSS, JavaScript, and web development frameworks, 2. 
 *  Database Administrator, skilled in database management, and data modeling.
 * Quality Assurance Tester, Full-time availability, skilled in manual and automated testing, and bug tracking.
+* Project manager.
 
 *Nazar Polevyi:*
 * Web Developer, skilled in HTML, CSS, JavaScript, and web development frameworks, quality .
@@ -33,8 +34,7 @@ Implement the design provided by the user experience designer
 Ensure the website is optimized for performance and accessibility
 Collaborate with Nazar (o ensure seamless integration between the website and the databas. Troubleshoot issues and provide timely fixes
 
-* 
-Design and maintain the database for the library website
+* Design and maintain the database for the library website
 Ensure the database is optimized for performance and scalability
 Collaborate with Nazar to ensure seamless integration between the website and the database
 Implement security measures to protect the database from unauthorized access
