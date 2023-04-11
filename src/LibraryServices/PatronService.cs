@@ -36,7 +36,8 @@ namespace LibraryServices
         {
             return _context.Patrons
                 .Include(a => a.LibraryCard)
-                .Include(a => a.HomeLibraryBranch);
+                .Include(a => a.HomeLibraryBranch)
+                .ToList();
         }
 
         public IEnumerable<CheckoutHistory> GetCheckoutHistory(int patronId)
@@ -50,7 +51,8 @@ namespace LibraryServices
                 .Include(a => a.LibraryCard)
                 .Include(a => a.LibraryAsset)
                 .Where(a => a.LibraryCard.Id == cardId)
-                .OrderByDescending(a => a.CheckedOut);
+                .OrderByDescending(a => a.CheckedOut)
+                .ToList();
         }
 
         public IEnumerable<Checkout> GetCheckouts(int id)
@@ -59,7 +61,8 @@ namespace LibraryServices
             return _context.Checkouts
                 .Include(a => a.LibraryCard)
                 .Include(a => a.LibraryAsset)
-                .Where(v => v.LibraryCard.Id == patronCardId);
+                .Where(v => v.LibraryCard.Id == patronCardId)
+                .ToList();
         }
 
         public IEnumerable<Hold> GetHolds(int patronId)
@@ -73,7 +76,8 @@ namespace LibraryServices
                 .Include(a => a.LibraryCard)
                 .Include(a => a.LibraryAsset)
                 .Where(a => a.LibraryCard.Id == cardId)
-                .OrderByDescending(a => a.HoldPlaced);
+                .OrderByDescending(a => a.HoldPlaced)
+                .ToList();
         }
     }
 }

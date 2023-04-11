@@ -35,7 +35,8 @@ namespace LibraryServices
         {
             return _context.LibraryAssets
                 .Include(a => a.Status)
-                .Include(a => a.Location);
+                .Include(a => a.Location)
+                .ToList();
         }
 
         public string GetAuthorOrDirector(int id)

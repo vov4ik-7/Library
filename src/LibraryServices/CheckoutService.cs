@@ -32,7 +32,7 @@ namespace LibraryServices
 
         public IEnumerable<Checkout> GetAll()
         {
-            return _context.Checkouts;
+            return _context.Checkouts.ToList();
         }
 
         public void CheckoutItem(int id, int libraryCardId)
@@ -175,7 +175,8 @@ namespace LibraryServices
             var currentHolds = _context.Holds
                 .Include(a => a.LibraryAsset)
                 .Include(a => a.LibraryCard)
-                .Where(a => a.LibraryAsset.Id == id);
+                .Where(a => a.LibraryAsset.Id == id)
+                .ToList();
 
             // if there are current holds, check out the item to the earliest
             if (currentHolds.Any())
@@ -195,7 +196,8 @@ namespace LibraryServices
             return _context.CheckoutHistories
                 .Include(a => a.LibraryAsset)
                 .Include(a => a.LibraryCard)
-                .Where(a => a.LibraryAsset.Id == id);
+                .Where(a => a.LibraryAsset.Id == id)
+                .ToList();
         }
 
         // Remove useless method and replace with finding latest CheckoutHistory if needed 
@@ -255,7 +257,8 @@ namespace LibraryServices
         {
             return _context.Holds
                 .Include(h => h.LibraryAsset)
-                .Where(a => a.LibraryAsset.Id == id);
+                .Where(a => a.LibraryAsset.Id == id)
+                .ToList();
         }
 
         public string GetCurrentPatron(int id)
