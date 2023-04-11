@@ -30,6 +30,7 @@ namespace Library
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddSingleton(Configuration);
@@ -37,6 +38,7 @@ namespace Library
             // Dependency injection configurations
             services.AddScoped<ILibraryAssetService, LibraryAssetService>();
             services.AddScoped<ICheckoutService, CheckoutService>();
+            services.AddScoped<IPatronService, PatronService>();
 
             services.AddDbContext<LibraryContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
