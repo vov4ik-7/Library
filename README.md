@@ -62,5 +62,6 @@ By working together, we created a functional and user-friendly library website w
 #### Here you can find [budget and resources](https://github.com/vov4ik-7/Library/blob/main/Documents/Budget%20and%20resources%20allocation.pdf "budget and resources") estimation.
 #### Here you can find the [Program Vision Statement](https://github.com/vov4ik-7/Library/blob/main/Documents/Program%20Vision%20Statement.pdf "Program Vision Statement") of our project.
 #### Here you can find the [Software Requirements Specification](https://github.com/vov4ik-7/Library/blob/main/Documents/Software%20Requirements%20Specification%202.0.pdf "Software Requirements Specification").
+#### Here you can find the [Test Plan Document](https://github.com/vov4ik-7/Library/blob/main/Documents/Test%20Plan%20Document.pdf "Test Plan Document").
 #### You can find Figma mockups [here](https://www.figma.com/file/FksBSmNegs0zqgU31aRTPT/Library?node-id=0%3A1&t=8FrahS0F6APM0QyM-1 "Figma mockups").
  
